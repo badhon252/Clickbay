@@ -1,1 +1,216 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 0 10rem;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.h1 {
+  font-size: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: #fdf9f4;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+header .header-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+header .navbar {
+  color: #282b4d;
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+}
+
+header .navbar .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbar .nav .nav-items {
+  margin-left: 3rem;
+  list-style-type: none;
+}
+
+header .navbar .nav .nav-items .nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+header .navbar .nav-start {
+  border: 1px solid #1a5365;
+  -webkit-box-shadow: 0px 25px 35px -20px rgba(232, 236, 243, 0.5);
+          box-shadow: 0px 25px 35px -20px rgba(232, 236, 243, 0.5);
+  border-radius: 10px;
+  color: #154f61;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+header .header-content .h1 {
+  font-weight: 800;
+  margin-bottom: -0.6rem;
+  color: #12163c;
+}
+
+header .header-content .signature {
+  display: block;
+  margin: 0 auto;
+  -webkit-transform: translateX(217px);
+          transform: translateX(217px);
+}
+
+header .header-content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 27px;
+  color: #12163c94;
+}
+
+header .header-content .company-stat {
+  -webkit-transform: translateY(-120px);
+          transform: translateY(-120px);
+}
+
+header .header-content .company-stat .subscriber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 22px;
+}
+
+header .header-content .company-stat .subscriber span {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  background-color: #fef9f4;
+  color: #ffb531;
+  padding: 10px;
+  border-radius: 15px;
+  margin-right: 1.5rem;
+}
+
+header .header-content .company-stat .subscriber h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+header .header-content .company-stat .follow {
+  position: relative;
+  z-index: 11;
+}
+
+header .header-content .company-stat .follow .follower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 22px;
+}
+
+header .header-content .company-stat .follow .follower img {
+  padding-right: 1rem;
+}
+
+header .header-content .company-stat .follow .follower h3 {
+  font-size: 1.1rem;
+}
+
+header .header-content .company-stat .follow .follower p {
+  font-size: 14px;
+}
+
+header .header-content .company-stat .follow .following {
+  position: absolute;
+  top: 42px;
+  right: -70px;
+}
+
+header .header-content .group-933 {
+  position: relative;
+  margin: 0 auto;
+  top: -240px;
+  display: block;
+  z-index: 9999;
+}
+/*# sourceMappingURL=style.css.map */

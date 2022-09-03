@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 10rem 0;
+}
+.btn {
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+}
+header {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    .nav {
+      display: flex;
+      .nav-items {
+        margin-right: 10px;
+        list-style-type: none;
+        .nav-links {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
