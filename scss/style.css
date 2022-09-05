@@ -488,4 +488,74 @@ header .header-content .group-933 {
   background-color: #fff;
   color: #000;
 }
+
+.footer {
+  margin: 6rem 12rem;
+}
+
+.footer h1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 30px;
+  color: #12163c;
+}
+
+.footer li {
+  list-style-type: none;
+  margin: 2rem 0;
+}
+
+.footer li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  text-align: center;
+  color: #7b8498;
+}
+
+.footer li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.footer p {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  line-height: 34px;
+  color: #7b8498;
+}
+
+.footer form input {
+  padding: 1rem 2rem;
+  outline: none;
+  font-weight: 500;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.014);
+  background-color: #fffaf1;
+  border-radius: 35px;
+}
+
+.footer form input:focus {
+  outline: 1px solid grey;
+}
+
+.footer form label {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 1.8rem;
+  margin: 0 1rem;
+  background-color: #255b6c;
+  color: #fff;
+  border-radius: 39px;
+  cursor: pointer;
+}
+
+.footer .copyrights {
+  margin-top: 2rem;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #7b8498;
+}
 /*# sourceMappingURL=style.css.map */

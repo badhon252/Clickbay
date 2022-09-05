@@ -419,20 +419,16 @@ header {
     margin: 2rem 0;
     a {
       text-decoration: none;
-      font-weight: 500;
-      font-size: 1rem;
+      font-weight: 400;
+      font-size: 16px;
       line-height: 24px;
       text-align: center;
       color: #7b8498;
-      &:hover {
-        text-decoration: underline;
-        color: #000;
-      }
     }
   }
   p {
     margin: 2rem 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 34px;
     color: #7b8498;
   }
@@ -440,14 +436,10 @@ header {
     input {
       padding: 1rem 2rem;
       outline: none;
-      font-weight: 500;
-      font-size: 1rem;
+      font-size: 0.9rem;
       border: 1px solid rgba(0, 0, 0, 0.014);
       background-color: #fffaf1;
       border-radius: 35px;
-      &:focus {
-        outline: 1px solid grey;
-      }
     }
     label {
       font-size: 1rem;
@@ -459,13 +451,5 @@ header {
       border-radius: 39px;
       cursor: pointer;
     }
-  }
-
-  .copyrights {
-    margin-top: 2rem;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    color: #7b8498;
   }
 }

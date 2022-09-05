@@ -407,65 +407,14 @@ header {
 }
 
 .footer {
-  margin: 6rem 12rem;
+  margin: 6rem 10rem;
   h1 {
-    font-weight: 700;
-    font-size: 1.3rem;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 30px;
-    color: #12163c;
-  }
-  li {
-    list-style-type: none;
-    margin: 2rem 0;
-    a {
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 1rem;
-      line-height: 24px;
-      text-align: center;
-      color: #7b8498;
-      &:hover {
-        text-decoration: underline;
-        color: #000;
-      }
-    }
-  }
-  p {
-    margin: 2rem 0;
-    font-size: 1.1rem;
-    line-height: 34px;
-    color: #7b8498;
-  }
-  form {
-    input {
-      padding: 1rem 2rem;
-      outline: none;
-      font-weight: 500;
-      font-size: 1rem;
-      border: 1px solid rgba(0, 0, 0, 0.014);
-      background-color: #fffaf1;
-      border-radius: 35px;
-      &:focus {
-        outline: 1px solid grey;
-      }
-    }
-    label {
-      font-size: 1rem;
-      font-weight: 600;
-      padding: 1rem 1.8rem;
-      margin: 0 1rem;
-      background-color: #255b6c;
-      color: #fff;
-      border-radius: 39px;
-      cursor: pointer;
-    }
-  }
 
-  .copyrights {
-    margin-top: 2rem;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    color: #7b8498;
+    /* identical to box height */
+
+    color: #12163c;
   }
 }
